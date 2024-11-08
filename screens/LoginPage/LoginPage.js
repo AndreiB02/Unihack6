@@ -7,7 +7,7 @@ const LoginPage = ({ navigation }) => {
     const [password, setPassword] = useState('');
 
     const handleLogin = () => {
-        if (username === 'admin' && password === 'admin') {
+        if ( username === ''   && password === ''  ) {
             navigation.navigate('Home');
         } else {
             Alert.alert('Invalid Credentials', 'Username or password is incorrect.');
