@@ -68,7 +68,6 @@ const styles = StyleSheet.create({
     neighbourhoodName: {
         fontSize: 35,
         fontWeight: 'bold',
-        color: 'magenta',
     },
     profilePhotoHelper: {
         width: 80, // Adjusted size for Helper of the Month photo
@@ -80,7 +79,6 @@ const styles = StyleSheet.create({
         fontSize: 30,
         fontWeight: 'bold',
         marginTop: 10,
-        color: 'purple',
     },
     text:{
         fontSize:20,
